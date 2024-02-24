@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:url(img.webp);
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ 
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    background-color: #ef9a9e;
+    width: 450px;;
+    height:auto;
+    background: #da8787;
+    border-radius: 5px
+}
+.label{
+    padding: 20px 130px;
+    font: size 15px;
+    font-weight: bold;
+    color: #130f40;
+    
+}
+.login_form{
+    padding: 20px 40px;
+
+}
+.login_form .font{
+    font-size: 20px;
+    color: #130f40;
+}
+.login_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 10px;
+    outline: none;
+    border: 1px solid silver;
+    box-sizing: border-box;
+
+}
+
+.login_form .font2{
+    margin-top: 30px;
+}
+
+.login_form button{
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    color: black;
+    background-color: gray;
+    border: #130f40;
+    box-shadow: 20px;
+}
+
+.login_form #email_error,
+.login_form #pass_error{
+    width: 345px;
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9e;
+    display:none;
+    
+}
