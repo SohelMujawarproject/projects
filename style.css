@@ -13,32 +13,35 @@ body{
 .container{
     position: relative;
     margin-top: 100px;
+    background-color: #ef9a9e;
     width: 450px;;
     height:auto;
-    background: #dedede;
+    background: #da8787;
     border-radius: 5px
 }
 .label{
     padding: 20px 130px;
-    font: size 35px;
+    font: size 15px;
     font-weight: bold;
     color: #130f40;
+    
 }
 .login_form{
     padding: 20px 40px;
+
 }
 .login_form .font{
-    font-size: 18px;
+    font-size: 20px;
     color: #130f40;
-    margin: 50px 0;
 }
 .login_form input{
     height: 40px;
     width: 350px;
     padding: 0 5px;
-    font-size: 18px;
+    font-size: 10px;
     outline: none;
     border: 1px solid silver;
+    box-sizing: border-box;
 
 }
 
@@ -57,5 +60,17 @@ body{
     background-color: gray;
     border: #130f40;
     box-shadow: 20px;
-    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.login_form #email_error,
+.login_form #pass_error{
+    width: 345px;
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9e;
+    display:none;
+    
 }
