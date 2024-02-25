@@ -24,6 +24,7 @@ body{
     font: size 15px;
     font-weight: bold;
     color: #130f40;
+    font-family:'Franklin Gothic Medium' ;
     
 }
 .login_form{
@@ -38,11 +39,12 @@ body{
     height: 40px;
     width: 350px;
     padding: 0 5px;
-    font-size: 10px;
+    font-size: 15px;
     outline: none;
     border: 1px solid silver;
     box-sizing: border-box;
-
+    font-family: ' Courier', monospace;
+    background-color: #f7eeef;
 }
 
 .login_form .font2{
@@ -55,11 +57,12 @@ body{
     text-align: center;
     height: 40px;
     width: 300px;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
     background-color: gray;
     border: #130f40;
     box-shadow: 20px;
+    font-family:'Franklin Gothic Medium';
 }
 
 .login_form #email_error,
